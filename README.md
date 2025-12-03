@@ -42,8 +42,7 @@ Config Layer → Endpoints, Status Codes
 Test Data Layer → JSON test data
 Reports & Logs → Extent Reports + Log4j2
 
-yaml
-Copy code
+
 
 This modular architecture ensures clean code, easy maintenance, and high reusability.
 
@@ -115,16 +114,13 @@ Used for dependency resolution & build execution.
 git clone https://github.com/<your-username>/fakestoreapi-automation.git
 cd fakestoreapi-automation
 2. Run the full test suite
-bash
-Copy code
+
 mvn clean test
 3. Run specific TestNG suite
-bash
-Copy code
+
 mvn clean test -DsuiteXmlFile=src/test/resources/suites/testng.xml
 4. Run a specific test class
-bash
-Copy code
+
 mvn -Dtest=ProductGetTests test
 📊 Test Data Management
 All test input data is stored under:
@@ -144,8 +140,7 @@ The JsonReader utility reads JSON and maps it to POJO models for clean data-driv
 
 📑 Reports
 📍 Extent Reports are generated here:
-bash
-Copy code
+
 /reports/extent-reports/
 Open the generated index.html for:
 
@@ -160,8 +155,7 @@ Failure traces
 🧾 Logging
 Logs are saved under:
 
-bash
-Copy code
+
 /logs/application.log
 Configured via:
 

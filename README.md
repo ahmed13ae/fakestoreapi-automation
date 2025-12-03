@@ -110,23 +110,21 @@ Used for dependency resolution & build execution.
 # ▶ How to Run the Tests
 
 ### **1. Clone the repository**
-```bash
+
 git clone https://github.com/<your-username>/fakestoreapi-automation.git
 cd fakestoreapi-automation
-2. Run the full test suite
+### **2. Run the full test suite**
 
 mvn clean test
-3. Run specific TestNG suite
+### **3. Run specific TestNG suite**
 
 mvn clean test -DsuiteXmlFile=src/test/resources/suites/testng.xml
-4. Run a specific test class
+### **4. Run a specific test class**
 
 mvn -Dtest=ProductGetTests test
-📊 Test Data Management
+# 📊 Test Data Management
 All test input data is stored under:
 
-swift
-Copy code
 src/test/resources/testdata/
 Organized by module:
 
@@ -138,7 +136,7 @@ Organized by module:
 
 The JsonReader utility reads JSON and maps it to POJO models for clean data-driven testing.
 
-📑 Reports
+# 📑 Reports
 📍 Extent Reports are generated here:
 
 /reports/extent-reports/
@@ -152,7 +150,7 @@ Step-level status
 
 Failure traces
 
-🧾 Logging
+# 🧾 Logging
 Logs are saved under:
 
 

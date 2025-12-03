@@ -1,0 +1,18 @@
+{
+  "missingFields": {
+    "userId": 5
+  },
+  "emptyProducts": {
+    "userId": 5,
+    "products": []
+  },
+  "invalidStructure": {
+    "userId": 5,
+    "products": [
+      {
+        "productId": "invalid",
+        "quantity": "abc"
+      }
+    ]
+  }
+}

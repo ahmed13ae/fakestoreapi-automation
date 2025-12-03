@@ -1,0 +1,12 @@
+{
+  "validUpdate": {
+    "title": "Updated Product",
+    "price": 20.0,
+    "description": "Updated description",
+    "image": "https://test.com/updated.jpg",
+    "category": "electronics"
+  },
+  "invalidUpdate": {
+    "price": "not_a_number"
+  }
+}

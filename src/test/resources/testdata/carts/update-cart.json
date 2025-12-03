@@ -1,0 +1,12 @@
+{
+  "validUpdate": {
+    "userId": 3,
+    "products": [
+      { "productId": 1, "quantity": 3 }
+    ]
+  },
+  "invalidUpdate": {
+    "userId": "invalid",
+    "products": "not_an_array"
+  }
+}

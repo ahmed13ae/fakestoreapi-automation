@@ -1,0 +1,12 @@
+{
+  "missingFields": {
+    "title": "Test Product"
+  },
+  "invalidPrice": {
+    "title": "Test Product",
+    "price": "invalid",
+    "description": "Test description",
+    "image": "https://test.com/image.jpg",
+    "category": "electronics"
+  }
+}
